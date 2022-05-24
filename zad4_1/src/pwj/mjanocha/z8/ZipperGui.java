@@ -7,12 +7,12 @@ import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-public class TextEditor extends JFrame implements ActionListener {
+public class ZipperGui extends JFrame implements ActionListener {
   private final String UTF8 = "Zapisz (UTF8)";
   private final String ISO88592 = "Zapisz (ISO8859 2)";
   private final String CP1250 = "Zapisz (Cp1250)";
   private JTextArea textArea;
-  TextEditor(){
+  ZipperGui(){
     JFrame frame = new JFrame("editor");
     textArea = new JTextArea();
 
